@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    background: #e1e1e1;
+    font-family: JMH_Typewriter-Thin;
+  }
+  
+  body p {
+    font-size: 16px;
+  }
+  
+  h2 {
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: JMH_Typewriter-Bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: JMH_Typewriter-Bold;
+    text-align: center;
+  }
+  
+  #main-title {
+    background: rgba(221, 167, 85, 0.9);
+    padding: 6px 24px;
+    text-align: left;
+    color: white;
+    margin: 0px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  
+  .menu {
+    position: sticky;
+    top: 0px;
+    background-color: rgba(207, 206, 206, 0.5);
+  }
+  
+  .menu a {
+    display: inline-block;
+    font-family: JMH_Typewriter-Thin;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    padding: 14px 22px;
+  }
+  
+  .menu a:hover {
+    background: #a37f4b;
+    color: black;
+  }
+  
+  #story {
+    margin: 30px 40px;
+  }
+  
+  #destination {
+    margin-top: 50px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  #destination div {
+    background-color: rgba(207, 206, 206, 0.5);
+    padding: 20px;
+  }
+  
+  #destination img {
+    width: 100%;
+  }
+  
+  #packages {
+    margin-top: 50px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  #packages div{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    background-color: rgba(207, 206, 206, 0.5);
+    padding: 20px;
+  }
+  
+  #reports {
+    margin-top: 50px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  #reports div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: rgba(207, 206, 206, 0.5);
+    padding: 20px;
+  }
+  
+  #contact {
+    margin-top: 50px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  #contact div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    background-color: rgba(207, 206, 206, 0.5);
+    padding: 20px;
+  }
+  
+  @media (max-width: 900px) {
+    body {
+      display: grid;
+      grid-template-columns: 1fr;
+      background: #181818;
+    }
+  
+    body h2, h3, p, a {
+      color: #e1e1e1;
+    }
+  
+    #destination {
+      margin-top: 50px;
+      gap: 20px;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  
+    #reports div {
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      background-color: rgba(207, 206, 206, 0.5);
+      padding: 20px;
+    }
+  
+    #contact div {
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      background-color: rgba(207, 206, 206, 0.5);
+      padding: 20px;
+    }
+  
+    body p {
+      font-size: 18px;
+    }
+  
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      display: grid;
+      grid-template-columns: 1fr;
+      background: #181818;
+    }
+  
+    body h2, h3, p, a {
+      color: #e1e1e1;
+    }
+  
+    #destination {
+      margin-top: 50px;
+      gap: 20px;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  
+    #destination img {
+      display: none;
+    }
+  
+    #reports {
+      margin-top: 50px;
+      gap: 20px;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  
+    #reports div {
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      background-color: rgba(207, 206, 206, 0.5);
+      padding: 20px;
+    }
+  
+    #packages {
+      margin-top: 50px;
+      gap: 20px;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  
+    #contact div {
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      background-color: rgba(207, 206, 206, 0.5);
+      padding: 20px;
+    }
+  
+    body {
+      display: grid;
+      grid-template-columns: 1fr;
+      background: #e1e1e1;
+    }
+  
+    body h2, h3, p, a {
+      color: #181818;
+    }
+  
+    body p {
+      font-size: 20px;
+    }
+  }
